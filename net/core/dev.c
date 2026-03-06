@@ -71,6 +71,7 @@
  *              J Hadi Salim    :       - Backlog queue sampling
  *				        - netif_rx() feedback
  */
+#include <linux/rtnetlink.h>
 #include <linux/stacktrace.h>
 #include <linux/uaccess.h>
 #include <linux/bitops.h>
