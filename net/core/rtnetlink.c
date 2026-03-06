@@ -15,6 +15,7 @@
  *	Fixes:
  *	Vitaly E. Lavrov		RTA_OK arithmetics was wrong.
  */
+#include <linux/rtnetlink.h>
 #include <linux/stacktrace.h>
 #include <linux/bitops.h>
 #include <linux/errno.h>
